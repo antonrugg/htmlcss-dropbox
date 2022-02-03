@@ -137,13 +137,13 @@
 /* inizio plan section */
 
 .plan-section{
-    height: 100vh;
+    height: 320vh;
     position: relative;
     background-color: green;
 }
 
 .plan-section-container{
-    height: 200vh;
+    height: 300vh;
     width: 70%;
     background-color: hotpink;
     margin: auto;
@@ -304,3 +304,60 @@
 }
 
 
+.horizontal-table{
+    width: 100%;
+    height:10%;
+    margin-top: 2rem;
+    background-color: yellow;
+    position: relative;
+    border: 1px solid lightgray;
+}
+
+.horizontal-table-header{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.contact-office-text{
+    float: left;
+    width: 65%;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    font-size: 20px;
+}
+
+.contact-office-text > p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0.9rem;
+}
+
+.contact-office-text >p:last-of-type{
+    font-size: 14px;
+    color: gray;
+}
+
+#horizontal-btn{
+    width: 30%;
+    font-size: 16px;
+    float: right;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#horizontal-btn > a{
+    position: absolute;
+    top: 10px;
+    right: 2rem;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    padding: 0.7rem 3rem 0.7rem 3.5rem;
+} 
