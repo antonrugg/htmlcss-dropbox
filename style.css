@@ -79,15 +79,16 @@
 }
 
 .jumbo-title > h1{
-    font-size: 55px;
+    font-size: 80px;
     font-weight: bold;
-    padding-top: 10rem;
+    padding-top: 6rem;
 }
 
 .jumbo-paragraph{
     position: relative;
+    padding-top: 2rem;
     width: 30%;
-    height: 30%;
+    height: 35%;
     background-color: blueviolet;    
 }
 
@@ -116,3 +117,17 @@
 .annulla-p{
     margin-top: 0.7rem;
 }
+
+.download-arrow{
+    font-size: 26px;
+    margin-top: 1.5rem;
+}
+
+.jumbo-img > img{
+    width: 60%;
+    height: 65%;
+    position: absolute;
+    bottom: -70px;
+    right: 5%;
+}
+
