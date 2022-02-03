@@ -131,3 +131,33 @@
     right: 5%;
 }
 
+.plan-section{
+    height: 100vh;
+    position: relative;
+    background-color: green;
+}
+
+.plan-section-container{
+    height: 100%;
+    width: 70%;
+    background-color: hotpink;
+    margin: auto;
+}
+
+.look-for-plan-title > h2{
+    padding-top: 6rem;
+    font-size: 30px;
+}
+
+.month-year-checkbox{
+    margin-top: 4rem;
+}
+
+.month-year-checkbox > label{
+    
+    margin-right: 1rem;
+}
+
+.month-year-checkbox > input{
+    vertical-align: middle; 
+}
