@@ -421,7 +421,7 @@
 .operations-card-section{
     position: relative;
     width: 70%;
-    height: 140vh;
+    height: 150vh;
     margin: auto;
     background-color: pink;
     padding-top: 2rem;
@@ -454,3 +454,103 @@ width: 80%;
     font-weight: 800;
     line-height: 1rem;
 }
+
+.clients-section{
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    margin: auto;
+    background-color: brown;
+    margin-top: 2rem;
+}
+
+.clients-section-title{
+    width: 70%;
+    margin: auto;
+}
+
+.clients-section-title > h5{
+    font-size: 36px;
+    margin-bottom: 2rem;
+    width: 43%;
+}
+
+.clients-section-title > a{
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.client-box-container{
+    width: 460px;
+    height: 300px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.client-box{
+    width: 230px;
+    height: 250px;
+    background-color: blue;
+    border: 2px solid black;
+    float: left;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+}
+
+#arizona{
+    background-image: url("./img/arizona_state_university.svg");
+}
+
+#designit{
+    background-image: url("./img/designit.svg");
+}
+#florida{
+    background-image: url("./img/university_of_florida.svg");
+}
+#topps{
+    background-image: url("./img/topps.svg");
+}
+#world{
+    background-image: url("./img/world_bicycle_relief.svg");
+}
+
+#hearst{
+    background-image: url("./img/hearst_corp.svg");
+}
+
+#lonely{
+    background-image: url("./img/lonely_planet.svg");
+}
+
+#clear{
+    background-image: url("./img/clear_channel.svg");
+}
+
+.middle-designit{
+    width: 600px;
+    height: 500px;
+    background-color: antiquewhite;
+    float: left;
+    position: relative;
+}
+
+.middle-designit > img{
+    width: 50%;
+    height: 10%;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.middle-designit > .break-line{
+    top: 25%;
+    margin-left: 4rem;
+}
+
+.middle-designit > p{
+    margin: 5rem 3rem;
+}
+
+
+
