@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after {
@@ -36,6 +37,9 @@
     color: black;
     vertical-align: middle;
 }
+.nav-text > a:hover{
+    border-bottom: 2px solid black;
+}
 
 .nav-right{
     float: right;
@@ -51,6 +55,10 @@
     background-color: blue;
     font-size: 12px;
     padding: 0.7rem 1.7rem;
+}
+
+ a:hover.btn-hover{
+    background-color: rgba(0, 0, 255, 0.7);
 }
 
 /*Fine Nav-bar css */
@@ -80,7 +88,7 @@
 }
 
 .jumbo-title > h1{
-    font-size: 80px;
+    font-size: 68px;
     font-weight: bold;
     padding-top: 6rem;
 }
@@ -269,6 +277,8 @@
     background-color: blue;
 }
 
+
+
 .buy-now-text{
     position: absolute;
     font-size: 16px;
@@ -338,20 +348,20 @@
 }
 
 .contact-office-text > p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     padding-top: 0.9rem;
 }
 
 .contact-office-text >p:last-of-type{
-    font-size: 14px;
+    font-size: 12px;
     color: gray;
     padding-bottom: 2rem;
 }
 
 #horizontal-btn{
-    width: 30%;
-    font-size: 16px;
+    width: 35%;
+    font-size: 14px;
     float: right;
     margin-bottom: 100px;
     position: relative;
@@ -366,6 +376,10 @@
     background-color: blue;
     padding: 0.7rem 3rem 0.7rem 3.5rem;
 } 
+
+#horizontal-btn > a:hover{
+ background-color: rgba(0, 0, 255, 0.7);
+}
 
 /* Inizio look for partner section */
 
@@ -416,6 +430,11 @@
     background-color: white;
     padding: 0.7rem 3rem 0.7rem 3.5rem;
     
+}
+
+.look-for-partner-text > a:hover{
+    background-color: gray;
+    color: white;
 }
 
 /* fine look-for-partner-section */
@@ -501,6 +520,10 @@ width: 80%;
     background-repeat: no-repeat;
     background-position: center;
     padding: 2rem;
+}
+
+.client-box:hover{
+    border: 10px solid lightgrey;
 }
 
 #arizona{
@@ -592,6 +615,11 @@ width: 80%;
     padding: 0.7rem 2.5rem 0.7rem 2.5rem;
 }
 
+.free-try-section-container > a:hover{
+    background-color: gray;
+    color: white;
+}
+
 /* fine free trial section */
 
 /* inizio faq section */
@@ -601,7 +629,7 @@ width: 80%;
 .faq-section-container{
     width: 70%;
     margin: auto;
-    height: 85vh;
+    /* height: 85vh; */
     /* background-color: blue; */
     position: relative;
 }
@@ -663,7 +691,7 @@ footer > .footer-wrapper{
 
 .footer-wrapper > .footer-list{
     width: calc(100% / 5);
-    height: 50%;
+    height: 40%;
     /* background-color: pink; */
     float: left;
     color: white;
@@ -691,6 +719,10 @@ footer > .footer-wrapper{
     text-decoration: none;
     color: white;
     font-size: 14px;
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
 }
 
 .footer-wrapper > .break-line{
