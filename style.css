@@ -315,6 +315,10 @@
     margin-bottom: 1rem;
 }
 
+.highlights-container .fas{
+    color: blue;
+}
+
 
 .horizontal-table{
     width: 70%;
@@ -474,7 +478,7 @@ width: 80%;
     width: 70%;
     font-size: 14px;
     color: gray;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1rem;
 }
 
